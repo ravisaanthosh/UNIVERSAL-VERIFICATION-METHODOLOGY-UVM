@@ -54,6 +54,9 @@ module tb;
     run_test("my_report");
   end
 endmodule
+
+
+
 UVM_INFO @ 0: reporter [RNTST] Running test my_report...
 UVM_INFO /apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_factory.svh(1645) @ 0: reporter [UVM/FACTORY/PRINT] 
 #### Factory Configuration (*)
