@@ -33,7 +33,7 @@ class my_report extends uvm_test;
   function void build_phase (uvm_phase phase);
     uvm_factory factory=uvm_factory ::get();
     super.build_phase(phase);
-    set_inst_override_by_type("*",component_1::get_type(),component_2::get_type()); //<-----why here used in *?
+    set_inst_override_by_type("*",component_1::get_type(),component_2::get_type()); //<-----why here used in *? refer on constant
     cp1=component_1::type_id::create("cp1",this);
     factory.print();
   endfunction
